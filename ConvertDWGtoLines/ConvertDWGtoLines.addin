@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command EZ DWG Convert</Text>
+    <Description>Convert a selected DWG to detail lines</Description>
+    <Assembly>ConvertDWGtoLines.dll</Assembly>
+    <FullClassName>ConvertDWGtoLines.Command</FullClassName>
+    <ClientId>60eba897-bc5f-46a8-b874-0fcfff2a6707</ClientId>
+    <VendorId>Kirksey</VendorId>
+    <VendorDescription>Kirksey Architecture, http://kirksey.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application EZ DWG Convert</Name>
+    <Assembly>ConvertDWGtoLines.dll</Assembly>
+    <FullClassName>ConvertDWGtoLines.App</FullClassName>
+    <ClientId>266473fb-5483-444e-8dd3-023bb7bf218c</ClientId>
+    <VendorId>Kirksey</VendorId>
+    <VendorDescription>Kirksey Architecture, http://kirksey.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
